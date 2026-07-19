@@ -190,7 +190,7 @@ const handleScroll = (id) => {
     
     '&::before': {
       content: '""', position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
-      backgroundImage: isDark ? 'url(/bluebg.jpg)' : 'url(/bluebg2.jpg)', 
+      backgroundImage: isDark ? 'url(./bluebg.jpg)' : 'url(./bluebg2.jpg)', 
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
       // Subtle opacity for texture, not a focal point
