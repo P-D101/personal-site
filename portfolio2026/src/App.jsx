@@ -270,7 +270,7 @@ const handleScroll = (id) => {
             {/* 2. ABOUT */}
             <Box component="section" id="about" sx={{ scrollMarginTop: '100px' }}>
               <Typography variant="overline" sx={{ display: 'block', mb: 2, fontFamily: 'monospace', color: 'secondary.main' }}>
-                02. About
+                02. About 
               </Typography>
               <FadeInSection>
                 <Box sx={{ maxWidth: '1450px' }}>
@@ -280,7 +280,7 @@ const handleScroll = (id) => {
                         width: '400px', height: '400px', borderRadius: '24px', flexShrink: 0,
                         backgroundSize: 'cover', backgroundPosition: 'center',
                         boxShadow: '0 20px 40px rgba(0,0,0,0.4)', border: '1px solid rgba(255,255,255,0.1)',
-                        imageOrientation: 'from-image', backgroundImage: 'url(/profile.png)',
+                        imageOrientation: 'from-image', backgroundImage: 'url(./profile.png)',
                       }} 
                     />
                     <Box>
@@ -579,7 +579,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
 <GlassCard>
   <Box 
     component="img" 
-    src="/art4.jpeg" 
+    src="./art4.jpeg" 
     alt="Artwork Title"
     sx={{ 
       width: '100%', 
@@ -605,7 +605,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
                     <GlassCard>
   <Box 
     component="img" 
-    src="/art2.jpeg" 
+    src="./art2.jpeg" 
     alt="Artwork Title"
     sx={{ 
       width: '100%', 
@@ -626,7 +626,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
                      <GlassCard>
   <Box 
     component="img" 
-    src="/art1.jpeg" 
+    src="./art1.jpeg" 
     alt="Artwork Title"
     sx={{ 
       width: '100%', 
