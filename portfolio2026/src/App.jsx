@@ -483,9 +483,9 @@ users make intentional, value-driven style decisions based on user's mood, perso
                     <GlassCard>
                       <Stack spacing={4}>
                         <Box sx={{ borderBottom: '1px solid', borderColor: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)', pb: 2 }}>
-                          <Typography variant="h6" sx={{ color: 'text.primary', fontWeight: 600 }}>Top 10 Finalist - CamHack</Typography>
+                          <Typography variant="h6" sx={{ color: 'text.primary', fontWeight: 600 }}>CamHack</Typography>
                           <Typography variant="body2" sx={{ color: 'secondary.main' }}>CamHack: 48-hour hackathon  at the University of Cambridge • 2025</Typography>
-                          <Typography variant="body2" sx={{ color: 'text.primary', mt: 1, whiteSpace: 'pre-line' }}> Prototyped a chaotic alarm clock app in a 48-hour hackathon themed “Unintended Behaviour” {'\n' } Implemented key interaction logic and presented to 250+ participants. </Typography>
+                          <Typography variant="body2" sx={{ color: 'text.primary', mt: 1, whiteSpace: 'pre-line' }}> Prototyped a chaotic alarm clock app in a 48-hour hackathon themed “Unintended Behaviour” and selected as one of the top 10. {'\n' } Implemented key interaction logic and presented to 250+ participants. </Typography>
                         </Box>
                       </Stack>
                     </GlassCard>
