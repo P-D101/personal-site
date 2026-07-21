@@ -1,4 +1,4 @@
-**Live Site:** (https://[P-D101].github.io/personal-site/)
+**Live Site:** (https://P-D101.github.io/personal-site/)
 
 ## About
 This is my personal site built with React, Vite and GitHub Pages. 
