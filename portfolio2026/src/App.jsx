@@ -289,12 +289,12 @@ const handleScroll = (id) => {
                          Currently:{'\n'}
                         - Interning at TechWolf as an AI Engineer{'\n'}
                         - Attending YC Startup School 2026 in San Francisco {'\n'}
-                        - Continuing to explore problem spaces {'\n'}{'\n'}
+                        {'\n'}
                       
                         I am a second-year Computer Science student at the University of Cambridge.
                         {'\n'}
 
-I love the problem-solving aspects of software development, from ideation to implementation. While my recent work has focused on prototyping and experimentation, I am actively building my technical foundation to bridge the gap toward deployment.
+I love the process (and challenge) of taking a raw idea and turning it into something tangible. While my recent work has focused on prototyping and experimentation, I am actively looking to take on harder challenges and bridge the gap between a prototype and deployment.
 
 
                         {'\n'}{'\n'}
@@ -313,7 +313,32 @@ I love the problem-solving aspects of software development, from ideation to imp
               <Box sx={{ mt: 6, display: 'flex', gap: 2, flexWrap: 'wrap' }}>
                 <Typography variant="body1" sx={{ whiteSpace: 'pre-line', fontSize: '1.2rem', lineHeight: 1.8, color: 'text.primary', textShadow: isDark ? '0 1px 3px rgba(0,0,0,0.6)' : 'none' }}>
                     Outside of tech: {'\n'}
-                        - I love making art (acrylic painting, drawing, watercolor, pottery). I also enjoy reading, sports, and martial arts.
+                        - I love making {' '}
+
+                        
+                        <MUILink
+                           onClick={() => handleScroll('art')}
+                           sx={{
+                             color: 'warning.darker',
+                             fontWeight: 600,
+                             textDecoration: 'underline',
+                             textDecorationColor: 'rgba(154, 241, 254, 0.4)',
+                             textUnderlineOffset: '3px',
+                             cursor: 'pointer',
+                             transition: 'color 0.25s ease, text-decoration-color 0.25s ease, text-shadow 0.25s ease',
+                             '&:hover': {
+                               color: 'warning.main',
+                               textDecorationColor: 'warning.main',
+                               textShadow: '0 0 12px rgba(88, 68, 15, 0.6).6)',
+                             },
+                           }}
+                         >
+                        art</MUILink>
+                        
+                        
+                        
+                        
+                        . {' '}I also enjoy reading, sports, and martial arts.
 {'\n'}
 
                         - I am also the Women@CL Tech Chair at the University of Cambridge, where I help organise per-term technical talk events with industry/academic and student/researcher speakers.
@@ -404,7 +429,7 @@ data for time zone analysis. </Typography>
                       { techstack: ['Flask', 'Python', 'React', 'JavaScript'], button: '', date: '2026', title: 'Intuitive Business Data – Cloud Resource Management & VPL System [Calero]', img: '', 
                         description: '• Co-developed a cloud management platform featuring a VPL for policy automation and an AI-driven resource optimisation engine.\n \n • Built an analytics dashboard and integrated AI-assisted ticket recommendations and chat interface to improve cloud monitoring and user queries.' },
                       { techstack: ['React', 'React Flow', 'Spring Boot', 'Neo4j', 'REST APIs', 'Java', 'JavaScript', 'HTML/CSS'], button: 'In Progress', date: '2025', title: 'Graph Visualisation Application [Experimental/WIP]', img: '', 
-                        description: '• Inspired by university experiences, currently building a full-stack web tool to visually connect and organize ideas, using Neo4j to efficiently map out relationships.\n \n • Designing a maintainable backend with clear separation of concerns. ' },
+                        description: '• Experimenting with Neo4j to build a full-stack web tool that visually maps and organizes concepts.' },
                       { techstack: [], button: '', date: '2026', title: 'Product & Strategy - SheStarts 2.0 Venture Sprint', img: '', description: '• Selected as 1 of 62 participants for a high-intensity 3-day sprint. \n \n • Collaborated cross-functionally to create an initial concept and GTM strategy for a two-sided social coordination platform, and pitched to an expert panel.'},
                     
                       { techstack: ['React', 'JavaScript', 'Tailwind CSS'], button: 'This site' , date: '2026', title: 'Personal Portfolio', img: '', description: 'Designed and developed a responsive personal portfolio website.' }
@@ -554,9 +579,9 @@ users make intentional, value-driven style decisions based on user's mood, perso
                   </Typography>
 
                   <Typography variant="body2" sx={{ fontFamily: 'monospace', color: 'text.secondary' }}>
-                    {beyondStatus === 'loading' ? '> Loading modules...' : 
-                     beyondStatus === 'open' ? '> Click here to close modules...' : 
-                     '> Click to explore creative modules...'}
+                    {beyondStatus === 'loading' ? '> Loading...' : 
+                     beyondStatus === 'open' ? '> Click here to close' : 
+                     '> Click to explore art and notes...'}
                   </Typography>
                 </Box>
               </Button>
@@ -573,7 +598,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
               </Typography>
               <FadeInSection>
                 <Box>
-                  <Typography variant="h3" sx={{ fontWeight: 800, color: 'text.primary', mb: 6, textShadow: isDark ? '0 2px 10px rgba(0,0,0,0.5)' : 'none' }}>Art Gallery</Typography>
+                  <Typography variant="h3" sx={{ fontWeight: 800, color: 'text.primary', mb: 6, textShadow: isDark ? '0 2px 10px rgba(0,0,0,0.5)' : 'none' }}>Gallery</Typography>
                   <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(3, 1fr)' }, gap: 4 }}>
                    {/* Art Item 1 */}
 <GlassCard>
@@ -654,7 +679,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
     opacity: 0.7 
   }}
 >
-  Will add more artworks soon.
+  Will add more soon.
 </Typography>
 
               </FadeInSection>
