@@ -432,7 +432,7 @@ data for time zone analysis. </Typography>
                         description: '• Experimenting with Neo4j to build a full-stack web tool that visually maps and organizes concepts.' },
                       { techstack: [], button: '', date: '2026', title: 'Product & Strategy - SheStarts 2.0 Venture Sprint', img: '', description: '• Selected as 1 of 62 participants for a high-intensity 3-day sprint. \n \n • Collaborated cross-functionally to create an initial concept and GTM strategy for a two-sided social coordination platform, and pitched to an expert panel.'},
                     
-                      { techstack: ['React', 'JavaScript', 'Tailwind CSS'], button: 'This site' , date: '2026', title: 'Personal Portfolio', img: '', description: 'Designed and developed a responsive personal portfolio website.' }
+                      { techstack: ['React', 'JavaScript', 'Tailwind CSS'], button: 'This site' , date: '2026', title: 'Personal Website', img: '', description: 'Designed and developed a responsive personal website.' }
                     ].map((item, index) => (
                       <Box key={index} sx={{ minWidth: { xs: '85vw', md: '450px' }, scrollSnapAlign: 'start' }}>
                         <GlassCard>
@@ -571,7 +571,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
               >
                 <Box sx={{ textAlign: 'center' }}>
                   <Typography variant="body1" sx={{ fontFamily: 'monospace', color: 'warning.main', fontWeight: 600, fontSize: '1.1rem', mb: 0.5 }}>
-                    <span style={{ color: '#4b91a3' }}>~/portfolio</span> $ cd ./beyond-the-terminal
+                    <span style={{ color: '#4b91a3' }}>~/about-me</span> $ cd ./beyond-the-terminal
                   </Typography>
 
                   <Typography variant="body2" sx={{ color: isDark ? 'rgba(255,255,255,0.4)' : 'rgba(0,0,0,0.4)', fontStyle: 'italic', mb: 2, maxWidth: '400px' }}>
