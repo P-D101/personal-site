@@ -15,7 +15,7 @@ const SECTIONS = [
   { id: 'skills', label: '06. Skills' },
   { id: 'contact', label: '07. Contact' },
   {id: 'art', label: '08. Art '},
-  {id: 'notes', label: '09. Notes '}
+ // {id: 'notes', label: '09. Notes '}
 ];
 
 const SKILLS = ['React', 'SQL', 'Node.js', ' HTML/CSS', 'Python', 'JavaScript', 'Java', 'C' , 'Neo4j', 'OCaml'];
@@ -288,15 +288,13 @@ const handleScroll = (id) => {
                       <Typography variant="body1" sx={{ whiteSpace: 'pre-line', fontSize: '1.2rem', lineHeight: 1.8, color: 'text.primary', textShadow: isDark ? '0 1px 3px rgba(0,0,0,0.6)' : 'none' }}>
                          Currently:{'\n'}
                         - Interning at TechWolf as an AI Engineer{'\n'}
-                        - Attending YC Startup School 2026 in San Francisco {'\n'}
+                       
                         {'\n'}
                       
                         I am a second-year Computer Science student at the University of Cambridge.
                         {'\n'}
 
-I love the process (and challenge) of taking a raw idea and turning it into something tangible. While my recent work has focused on prototyping and experimentation, I am actively looking to take on harder challenges and bridge the gap between a prototype and deployment.
-
-
+I enjoy solving complex problems and turning ideas into real tools. Currently focused on learning, experimenting, and gaining real industry experience.
                         {'\n'}{'\n'}
 
                        
@@ -427,7 +425,7 @@ data for time zone analysis. </Typography>
                   <Box sx={{ display: 'flex', overflowX: 'auto', gap: 4, pb: 4, px: 1, scrollSnapType: 'x mandatory', '&::-webkit-scrollbar': { display: 'none' } }}>
                     {[
                       { techstack: ['Flask', 'Python', 'React', 'JavaScript'], button: '', date: '2026', title: 'Intuitive Business Data – Cloud Resource Management & VPL System [Calero]', img: '', 
-                        description: '• Co-developed a cloud management platform featuring a VPL for policy automation and an AI-driven resource optimisation engine.\n \n • Built an analytics dashboard and integrated AI-assisted ticket recommendations and chat interface to improve cloud monitoring and user queries.' },
+                        description: '• Co-developed a cloud management platform featuring a VPL for policy automation and an AI-driven tools.\n \n • Built an analytics dashboard and integrated AI-assisted ticket recommendations and chat interface to improve cloud monitoring and user queries.' },
                       { techstack: ['React', 'React Flow', 'Spring Boot', 'Neo4j', 'REST APIs', 'Java', 'JavaScript', 'HTML/CSS'], button: 'In Progress', date: '2025', title: 'Graph Visualisation Application [Experimental/WIP]', img: '', 
                         description: '• Experimenting with Neo4j to build a full-stack web tool that visually maps and organizes concepts.' },
                       { techstack: [], button: '', date: '2026', title: 'Product & Strategy - SheStarts 2.0 Venture Sprint', img: '', description: '• Selected as 1 of 62 participants for a high-intensity 3-day sprint. \n \n • Collaborated cross-functionally to create an initial concept and GTM strategy for a two-sided social coordination platform, and pitched to an expert panel.'},
@@ -502,15 +500,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
                     </GlassCard>
 
 
-                    <GlassCard>
-                      <Stack spacing={4}>
-                        <Box sx={{ borderBottom: '1px solid', borderColor: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)', pb: 2 }}>
-                          <Typography variant="h6" sx={{ color: 'text.primary', fontWeight: 600 }}>Regional Winner - Shell Bright Ideas Challenge </Typography>
-                          <Typography variant="body2" sx={{ color: 'secondary.main' }}>Shell UK • 2020</Typography>
-                          <Typography variant="body2" sx={{ color: 'text.primary', mt: 1, whiteSpace: 'pre-line' }}> Designed a system to convert sound energy into usable stores; awarded Northwest winner and a £2,500 prize.</Typography>
-                        </Box>
-                      </Stack>
-                    </GlassCard>
+
 
                   </Stack>
                 </Box>
@@ -686,6 +676,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
             </Box>
 
             {/* 9. NOTES */}
+            {/*
             <Box component="section" id="notes" sx={{ scrollMarginTop: '100px', mt: 16 }}>
               <Typography variant="overline" sx={{ display: 'block', mb: 2, fontFamily: 'monospace', color: 'secondary.main' }}>
                 09. Notes
@@ -713,7 +704,7 @@ users make intentional, value-driven style decisions based on user's mood, perso
 
                 </Box>
               </FadeInSection>
-            </Box>
+            </Box>*/}
 
 </>
             )}
